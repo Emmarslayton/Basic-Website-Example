@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Press + Pour Coffeehouse</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+  </head>
+  <body>
+    <!-- Add header with JS -->
+    <script src="../javascript/header.js"></script>
+
+    <div>
+      <div id="shop-by-category">
+      <h2 style="text-align: center;">Shop by category</h2>
+      <ul id="shop-categories">
+        <a href="../html/shop-coffee.html"><li>Coffee</li></a>
+        <a href="../html/shop-mugs.html"><li>Mugs</li></a>
+        <a href="../html/shop-apparel.html"><li>Apparel</li></a>
+      </ul>
+    </div>
+
+      <div class="productcont">
+        <div class="productdivs">
+            <div class="product">
+                <img src="../images/sweatshirt-a.png" alt="Sweatshirt" width="400" height="400">
+                <h3 class="productname">Logo Sweatshirt</h3>
+                <p class="price">$16.99</p>
+                <button class="addtocart">Add To Cart</button>
+            </div>
+            <div class="product">
+                <img src="../images/tshirt-a.png" alt="Tshirt" width="400" height="400">
+                <h3 class="productname">Logo T-Shirt</h3>
+                <p class="price">$14.99</p>
+                <button class="addtocart">Add To Cart</button>
+            </div>
+            <div class="product">
+                <img src="../images/tshirt2-a.png" alt="Quote Tshirt" width="400" height="400">
+                <h3 class="productname">Coffee Please T-Shirt</h3>
+                <p class="price">$19.99</p>
+                <button class="addtocart">Add To Cart</button>
+            </div>
+            <br>
+            <div class="product" id="dark_roast">
+              <img src="../images/coffee_bean3.jpg" alt="Light Roast Coffee Bag" width="400" height="400">
+              <h3 class="productname">Dark Roast</h3>
+              <p class="price">$5.05</p>
+              <button class="addtocart">Add To Cart</button>
+          </div>
+          <br>
+          <div class="product" id="medium_roast">
+              <img src="../images/coffee_bean2.jpg" alt="Medium Roast Coffee Bag" width="400" height="400">
+              <h3 class="productname">Medium Roast</h3>
+              <p class="price">$6.99</p>
+              <button class="addtocart">Add To Cart</button>
+          </div>
+          <div class="product" id="light_roast">
+              <img src="../images/coffee_bean1.jpg" alt="Light Roast Coffee Bag" width="400" height="400">
+              <h3 class="productname">Light Roast</h3>
+              <p class="price">$5.50</p>
+              <button class="addtocart">Add To Cart</button>
+          </div>
+          <div class="product">
+            <img src="../images/coffeecup-b.png" alt="Coffee Mug" width="300" height="300">
+            <h3 class="productname">Logo Coffee Mug</h3>
+            <p class="price">$5.50</p>
+            <button class="addtocart">Add To Cart</button>
+          </div>
+          <div class="product">
+              <img src="../images/coffee_mug1.png" alt="Logo Camper Mug" width="300" height="300">
+              <h3 class="productname">Logo Camper Mug</h3>
+              <p class="price">$8.00</p>
+              <button class="addtocart">Add To Cart</button>
+          </div>
+          <div class="product">
+              <img src="../images/coffee_mug2.jpg" alt="Coffee Mug" width="300" height="300">
+              <h3 class="productname">Logo Green Mug</h3>
+              <p class="price">$6.99</p>
+              <button class="addtocart">Add To Cart</button>
+          </div>
+          <div class="product">
+              <img src="../images/coffee_cup1.jpg" alt="Coffee Mug" width="300" height="300">
+              <h3 class="productname">Logo Travel Mug</h3>
+              <p class="price">$5.50</p>
+              <button class="addtocart">Add To Cart</button>
+          </div>
+        </div>
+        <div class="cart-container hidden">
+           <h2>Cart</h2>
+           <table>
+             <thead>
+               <tr>
+               <th><strong>Product</strong></th>
+               <th><strong>Price</strong></th>
+             </tr>
+             </thead>
+             <tbody id="carttable">
+             </tbody>
+           </table>
+           <hr>
+           <table id="carttotals">
+             <tr>
+               <td><strong>Items</strong></td>
+               <td><strong>Total</strong></td>
+             </tr>
+             <tr>
+               <td>x <span id="itemsquantity">0</span></td>
+              
+               <td>$<span id="total">0</span></td>
+             </tr></table>
+ 
+             
+           <div class="cart-buttons">  
+             <button id="emptycart">Empty Cart</button>
+             <a href="../html/CheckOut.html">
+              <button id="checkout" >Checkout</button>
+             </a>
+           </div>
+         </div>
+ </div>
+  <script  src="../script.js"></script>
+<script src="../javascript/ShowProducts-apparel.js"></script>
+    </div>
+      <footer>
+    <div class="footer-item" id="footer-logo">
+      <img src="../images/press+pour.png" alt="Press + Pour coffeehouse" style="max-width: 100%;">
+    </div>
+    <div class="footer-item" id="footer-hours">
+      <h3><b>HOURS</b></h3>
+      <p>Monday-Thursday 3-11pm</p>
+      <p>Friday-Sunday 11am-2am</p>
+    </div>
+    <div class="footer-item"id="footer-contact">
+      <h3><b>Contact Us</b></h3>
+        <p>info@presspour.com</p>
+        <p>(555) 555-5555</p>
+        <form>
+          <textarea id="contact-message" cols="20" rows="4" placeholder="Leave a Message"></textarea>
+        </form>
+      </li>
+    </ul> 
+  </div>
+  </footer>
+  </body>
+</html>
