@@ -15,8 +15,7 @@ template.innerHTML=`
         <a href="/Basic-Website-Example/html/shop.html"> SHOP</a>
         <div class="dropdown-content">  
         <a href="/Basic-Website-Example/html/shop-coffee.html"> Coffee Beans </a>  
-        <a href="/Basic-Website-Example/html/shop-mugs.html"> Mugs </a>  
-        <a href="/Basic-Website-Example/html/shop-apparel.html"> Apparel </a>  
+        <a href="/Basic-Website-Example/html/shop-mugs.html"> Mugs </a> 
         </div>  
       </div>  </li>
     <li><a href="/Basic-Website-Example/html/contact.html">Contact Us</a></li>
