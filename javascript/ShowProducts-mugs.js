@@ -26,7 +26,7 @@ function ProduceProducts(myArea, product)
     newData3.textContent = `Price: ${product.Price}`
     newData4.textContent = `Description: ${product.Description}`
     newData5.textContent = `Weight: ${product.Weight}`
-    newImg.src = `../images/${product.Photo}`
+    newImg.src = `/Basic-Website-Example/images/${product.Photo}`
 
     newImg.style.width = '300px';
     newImg.style.height = '300px';
@@ -41,7 +41,7 @@ function ProduceProducts(myArea, product)
 };
 
 
-getProducts('../json/product-mugs.json');
+getProducts('/Basic-Website-Example/json/product-mugs.json');
 
 
 

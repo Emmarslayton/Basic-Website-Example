@@ -30,7 +30,7 @@ footer {
 /* ------------------ HEADER ------------------ */
 @font-face{
     font-family: Pierson;
-    src: url(../Garet\ Book\ 300.ttf);
+    src: url(/Basic-Website-Example/Garet\ Book\ 300.ttf);
     font-weight: 400;
     font-style: normal;
 }
